@@ -1,0 +1,75 @@
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.col,
+.main-features li {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+.col,
+.main-features li {
+    margin-left:1%;
+    padding:0 1%;
+}
+
+.row .col:first-child,
+.main-features li:first-child {
+    margin-left:0;
+}
+.page .row {
+    margin-bottom: 24px;
+}
+
+
+
+.span_1 {
+    width:15.8333333333%;
+}
+.span_2,
+.main-features li {
+    width:32.6666666667%;
+}
+.span_3 {
+    width:49.5%;
+}
+.span_4 {
+    width:66.3333333333%;
+}
+.span_5 {
+    width:83.1666666667%;
+}
+.span_6 {
+    margin-left:0;
+    width:100%;
+}
+.logo_shift {
+    margin-left: 156px !important;
+}
+    
+
